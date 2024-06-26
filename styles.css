@@ -18,6 +18,7 @@ body {
 
 .scroll-content {
     display: inline-flex;
+    margin: 5px;
     animation: scroll 20s linear infinite;
 }
 
