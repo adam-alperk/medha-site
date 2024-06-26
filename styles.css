@@ -4,7 +4,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #222;
+    background-color: #00000000;
     margin: 0;
     overflow: hidden; /* Prevent scrollbar from showing */
 }
