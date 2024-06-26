@@ -1,0 +1,35 @@
+/* styles.css */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #222;
+    margin: 0;
+    overflow: hidden; /* Prevent scrollbar from showing */
+}
+
+.scroll-container {
+    width: 450px; /* 150px * 3 images */
+    overflow: hidden;
+    white-space: nowrap; /* Ensure the images stay in one line */
+}
+
+.scroll-content {
+    display: inline-flex;
+    animation: scroll 20s linear infinite;
+}
+
+.scroll-content img {
+    width: 150px; /* Adjust width so that exactly 3 images fit in the container */
+    height: auto;
+}
+
+@keyframes scroll {
+    from {
+        transform: translateX(0%);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
